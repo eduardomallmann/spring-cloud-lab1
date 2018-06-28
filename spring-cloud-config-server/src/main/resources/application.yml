@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-#          uri: file:///c/Users/emallmann/Documents/Treinamento/Microservices/Labs/spring-cloud/lab1
-          uri: file://home/eduardo/Documents/Treinamento/spring-cloud/spring-cloud-lab1/spring-cloud-config-repo
+          uri: file:///${user.home}/Documents/Treinamento/Microservices/Labs/spring-cloud/lab1/spring-cloud-config-repo
+#          uri: file://home/eduardo/Documents/Treinamento/spring-cloud/spring-cloud-lab1/spring-cloud-config-repo
